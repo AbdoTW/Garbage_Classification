@@ -15,7 +15,7 @@ warnings.filterwarnings("ignore")
 options = st.sidebar.radio("Navigation", ["Predict Material Image", "About"])
 
 if options == "Predict Material Image":
-    set_background('background.jpg')
+    set_background('files/background.jpg')
 
     # Set title
     st.title('Garbage Classification')
@@ -30,12 +30,12 @@ if options == "Predict Material Image":
     url = st.text_input('Enter the URL of an image:')
 
     # Load classifier
-    model = load_model('./model_keras_old_version.h5')
+    model = load_model('./old_weights.h5')
     #model = tf.keras.models.load_model('./model/saved_model_format')    # after finishing training in kaggle notebook move the weights and run
 
 
     # Load class names
-    with open('./labels.txt', 'r') as f:
+    with open('./files/labels.txt', 'r') as f:
         class_names = [a[:-1].split(' ')[1] for a in f.readlines()]
 
     # Display image and classify
@@ -73,7 +73,7 @@ if options == "Predict Material Image":
         # Show an error message if no valid image is provided
         st.error("Please upload a valid image or enter a valid URL.")
 elif options == "About":
-    set_background('background.jpg')
+    set_background('./files/background.jpg')
 
     # Set title
     st.title('About Team members')
