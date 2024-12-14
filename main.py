@@ -11,14 +11,11 @@ import tensorflow as tf
 
 warnings.filterwarnings("ignore")
 
-# Enable legacy support mode
-tf.compat.v1.keras.backend.set_learning_phase(0)
-
 
 options = st.sidebar.radio("Navigation", ["Predict Material Image", "About"])
 
 if options == "Predict Material Image":
-    set_background('./background7.jpg')
+    set_background('background.jpg')
 
     # Set title
     st.title('Garbage Classification')
@@ -76,7 +73,7 @@ if options == "Predict Material Image":
         # Show an error message if no valid image is provided
         st.error("Please upload a valid image or enter a valid URL.")
 elif options == "About":
-    set_background('./background7.jpg')
+    set_background('background.jpg')
 
     # Set title
     st.title('About Team members')
