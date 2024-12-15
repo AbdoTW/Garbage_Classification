@@ -18,4 +18,4 @@ streamlit run main.py
 
 
 ### Demo Image
-![Demo Image]('./files/demo_image.png')
+![Demo Image](./files/demo_image.png)
