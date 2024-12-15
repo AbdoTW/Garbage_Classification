@@ -1,14 +1,17 @@
-# Garbage_Classification
-
+# Garbage Classification
 
 ![Demo Image](./files/demo_image.png)
 
+## Overview
+The **Garbage Classification** project aims to classify waste material images into predefined categories, such as Glass, Metal, Paper, and others. The project utilizes TensorFlow and Keras for building and training the classification model.
 
-## Environment Setup (running on codespaces)
-To run this project on codespaces without cloning it on your local machine, follow these steps:
+## Deployment Options
 
-### Step 1: Set up the Python environment
-To set up the Python environment, run the following command after cloning the repository:
+### 1. **Running on Codespaces**
+To quickly set up and run this project on GitHub Codespaces, follow the steps below:
+
+#### Step 1: Set Up the Python Environment
+After cloning the repository, set up the Python environment by running the following command:
 
 ```bash
 bash setup_env.sh
@@ -20,11 +23,11 @@ bash setup_env.sh
 streamlit run main.py
 ```
 
-## Environment Setup (running on local machine)
-To run this project on your local environment like conda , follow these steps:
+### 2. **Running on Local Machine**
+To run the project in your local environment, you can use Conda. Follow these steps:
 
-### Step 1: Set up the Python environment
-conda environment with python=3.10
+### Step 1: Set Up the Python Environment
+Create a new Conda environment with Python 3.10:
 ```bash
 conda create --name env_name python=3.10
 ```
