@@ -95,4 +95,5 @@ elif options == "About":
 #https://media.gettyimages.com/id/184941955/it/foto/per-il-riciclaggio-dei-rifiuti-di-cartone-isolato-su-bianco.jpg?s=612x612&w=gi&k=20&c=XmvHJkBKmCRnqv57DnsGyNO6XAUNBHXHm3emKlcDrBo=
 #https://image.made-in-china.com/202f0j00TiJhOcMsySRZ/Wholesale-Rectangular-Metal-Cookie-Tin-Box.webp
 #https://content.oppictures.com/Master_Images/Master_Variants/Variant_1500/187227.JPG
-#https://cdn.thewirecutter.com/wp-content/media/2024/04/drinking-glass-2048px-7795.jpg?auto=webp&quality=75&width=1024
+
+
