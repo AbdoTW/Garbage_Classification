@@ -1,7 +1,6 @@
 # Garbage_Classification
 
 
-## Demo Image
 ![Demo Image](./files/demo_image.png)
 
 
