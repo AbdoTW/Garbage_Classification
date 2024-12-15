@@ -5,6 +5,9 @@
 ## Overview
 The **Garbage Classification** project aims to classify waste material images into predefined categories, such as Glass, Metal, Paper, and others. The project utilizes TensorFlow and Keras for building and training the classification model.
 
+- Kaggle Notebook For Training : [Link Text](https://www.kaggle.com/code/abdalrhmantwfik/arabic-sign-language-arsl-yolov10m)
+
+
 ## Deployment Options
 
 ### 1. **Running on Codespaces**
