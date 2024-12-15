@@ -1,5 +1,10 @@
 # Garbage_Classification
 
+
+## Demo Image
+![Demo Image](./files/demo_image.png)
+
+
 ## Environment Setup (running on codespaces)
 To run this project on codespaces without cloning it on your local machine, follow these steps:
 
@@ -15,7 +20,3 @@ bash setup_env.sh
 ```bash
 streamlit run main.py
 ```
-
-
-### Demo Image
-![Demo Image](./files/demo_image.png)
