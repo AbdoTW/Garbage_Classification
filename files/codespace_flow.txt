@@ -1,11 +1,12 @@
-    3  curl https://pyenv.run | bash
-    4  export PATH="$HOME/.pyenv/bin:$PATH"
-    5  eval "$(pyenv init --path)"
-    6  eval "$(pyenv init -)"
-    7  eval "$(pyenv virtualenv-init -)"
-    8  source ~/.bashrc
-   10  pyenv global 3.10.0
-   11  python --version
-    pip install numpy streamlit pillow keras tensorflow
+curl https://pyenv.run | bash
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+source ~/.bashrc
+pyenv install 3.10.0
+pyenv global 3.10.0
+python --version
+pip install numpy streamlit pillow keras tensorflow
 
-   21  streamlit run main.py
+streamlit run main.py

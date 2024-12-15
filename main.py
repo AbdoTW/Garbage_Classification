@@ -62,16 +62,16 @@ if options == "Predict Material Image":
         except Exception as e:
             st.error(f"Error loading image: {e}")
 
-    if image is not None:
+    if image :
         class_name, conf_score = classify(image, model, class_names)
 
         # Write classification
         st.write("## {}".format(class_name))
         st.write("### Score: {}%".format(int(conf_score * 1000) / 10))
 
-    else:
-        # Show an error message if no valid image is provided
+    elif image is None and url:
         st.error("Please upload a valid image or enter a valid URL.")
+        
 elif options == "About":
     set_background('./files/background.jpg')
 
