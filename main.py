@@ -21,7 +21,22 @@ if options == "Predict Material Image":
     st.title('Garbage Classification')
 
     # Set header
-    st.header('Please upload a material image or enter a URL')
+    st.header('Please upload an image or enter a URL from the following categories:')
+
+    # st.write("###### {}".format("Glass, Metal, Cardboard, Paper, Plastic, Trash"))
+
+        # Display a hint to the user about allowed categories
+    st.markdown(
+        """
+       
+        - Glass
+        - Metal
+        - Cardboard
+        - Paper
+        - Plastic
+        - Trash
+        """
+    )
 
     # Upload file
     file = st.file_uploader('', type=['jpeg', 'jpg', 'png'])
@@ -31,7 +46,7 @@ if options == "Predict Material Image":
 
     # Load classifier
     # model = load_model('./old_weights.h5')
-    model = load_model('./new_weights(new_keras_version).h5')    # after finishing training in kaggle notebook move the weights and run
+    model = load_model('./files/new_weights(new_keras_version).h5')    # after finishing training in kaggle notebook move the weights and run
 
 
     # Load class names
@@ -71,7 +86,7 @@ if options == "Predict Material Image":
 
     elif image is None and url:
         st.error("Please upload a valid image or enter a valid URL.")
-        
+
 elif options == "About":
     set_background('./files/background.jpg')
 
