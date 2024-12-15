@@ -18,7 +18,7 @@ bash setup_env.sh
 ```
 
 
-### Step 2: Run the model
+#### Step 2: Run the model
 ```bash
 streamlit run main.py
 ```
@@ -26,7 +26,7 @@ streamlit run main.py
 ### 2. **Running on Local Machine**
 To run the project in your local environment, you can use Conda. Follow these steps:
 
-### Step 1: Set Up the Python Environment
+#### Step 1: Set Up the Python Environment
 Create a new Conda environment with Python 3.10:
 ```bash
 conda create --name env_name python=3.10
@@ -48,7 +48,7 @@ pip install keras
 pip install tensorflow
 ```
 
-### Step 2: Run the model
+#### Step 2: Run the model
 ```bash
 streamlit run main.py
 ```
