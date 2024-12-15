@@ -30,8 +30,8 @@ if options == "Predict Material Image":
     url = st.text_input('Enter the URL of an image:')
 
     # Load classifier
-    model = load_model('./old_weights.h5')
-    #model = tf.keras.models.load_model('./model/saved_model_format')    # after finishing training in kaggle notebook move the weights and run
+    # model = load_model('./old_weights.h5')
+    model = load_model('./new_weights(new_keras_version).h5')    # after finishing training in kaggle notebook move the weights and run
 
 
     # Load class names
