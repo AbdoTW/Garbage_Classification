@@ -17,7 +17,7 @@ To quickly set up and run this project on GitHub Codespaces, follow the steps be
 After cloning the repository, set up the Python environment by running the following command:
 
 ```bash
-bash setup_env.sh
+source setup_env.sh
 ```
 
 
