@@ -4,6 +4,8 @@ FROM ubuntu:20.04
 # Set working directory in the container
 WORKDIR /usr/app/src
 
+ENV DEBIAN_FRONTEND=noninteractive
+ENV TZ=UTC
 # Install required dependencies for pyenv and Python installation
 RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
