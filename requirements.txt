@@ -1,6 +1,8 @@
 streamlit
 Pillow
 requests
-tensorflow  # Adjust version if needed
+tensorflow
+keras
 pandas
 numpy
+
