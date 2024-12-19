@@ -38,7 +38,7 @@ docker build -t garbage_classification_streamlit .
 docker run -p 8000:8000 garbage_classification_streamlit
 ```
 
-### 3. **Running on Local Machine**
+### 2. **Running on Local Machine**
 To run the project in your local environment, you can use Conda. Follow these steps:
 
 #### Step 1: Set Up the Python Environment
