@@ -9,6 +9,7 @@ The **Garbage Classification** project aims to classify waste material images in
 
 
 ## Deployment Options
+<!--
 
 ### 1. **Running on Codespaces**
 To quickly set up and run this project on GitHub Codespaces, follow the steps below:
@@ -19,15 +20,14 @@ After cloning the repository, set up the Python environment by running the follo
 ```bash
 source setup_env.sh
 ```
-
-
 #### Step 2: Run the model
 ```bash
 streamlit run main.py
 ```
 
+-->
 
-### 2. **Running on Docker**
+### 1. **Running on Codespaces using Docker**
 #### Step 1: build the image
 ```bash
 docker build -t garbage_classification_streamlit .
