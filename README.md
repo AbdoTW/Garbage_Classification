@@ -27,7 +27,7 @@ streamlit run main.py
 
 -->
 
-### 1. **Running on Codespaces using Docker**
+### 1. **Running the Application on GitHub Codespaces with Docker**
 #### Step 1: build the image
 ```bash
 docker build -t garbage_classification_streamlit .
@@ -38,7 +38,7 @@ docker build -t garbage_classification_streamlit .
 docker run -p 8000:8000 garbage_classification_streamlit
 ```
 
-### 2. **Running on Local Machine**
+### 2. **Running the Application Locally Without Docker (Using Conda)**
 To run the project in your local environment, you can use Conda. Follow these steps:
 
 #### Step 1: Set Up the Python Environment
