@@ -11,5 +11,5 @@ COPY . /code
 
 EXPOSE 8000
 
-# Run Streamlit from the /code directory
-CMD ["streamlit", "run", "main.py"]
+# command to running streamlit app on spesific port 
+CMD ["streamlit", "run", "main.py", "--server.port" , "8000"]  
