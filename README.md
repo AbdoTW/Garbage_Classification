@@ -28,10 +28,15 @@ streamlit run main.py
 
 
 ### 2. **Running on Docker**
+#### Step 1: build the image
+```bash
+docker build -t garbage_classification_streamlit .
+```
 
-
-
-
+#### Step 2: Run thet image
+```bash
+docker run -p 8000:8000 garbage_classification_streamlit
+```
 
 ### 3. **Running on Local Machine**
 To run the project in your local environment, you can use Conda. Follow these steps:
