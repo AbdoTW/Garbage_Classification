@@ -39,9 +39,9 @@ docker run -p 8000:8000 garbage_classification_streamlit
 ```
 
 ### 3. **Running on Local Machine**
-To run the project in your local environment, you can use Conda. Follow these steps:
 
 #### Step 1: Set Up the Python Environment
+After cloning this repostitory: 
 Create a new Conda environment with Python 3.10:
 ```bash
 conda create --name env_name python=3.10
@@ -56,11 +56,7 @@ conda install pip
 ```
 install packages
 ```bash
-pip install numpy
-pip install streamlit
-pip install pillow
-pip install keras
-pip install tensorflow
+pip install -r requirements.txt
 ```
 
 #### Step 2: Run the model
