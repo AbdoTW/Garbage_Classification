@@ -1,6 +1,6 @@
 streamlit
 Pillow
 requests
-tensorflow==2.10.0  # Adjust version if needed
+tensorflow  # Adjust version if needed
 pandas
 numpy
