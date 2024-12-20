@@ -28,14 +28,27 @@ streamlit run main.py
 -->
 
 ### 1. **Running the Application on GitHub Codespaces with Docker**
-#### Step 1: build the image
+
+#### option 1: pull the image and run
 ```bash
-docker build -t garbage_classification_streamlit .
+docker login
+```
+then
+```bash
+docker pull abdotw/garbage_classification:v1.0
+```
+then
+```bash
+docker run -p 8000:8000 abdotw/garbage_classification:v1.0
 ```
 
-#### Step 2: Run thet image
+#### option 2: build the image and run 
 ```bash
-docker run -p 8000:8000 garbage_classification_streamlit
+docker build -t garbage_classification .
+```
+then 
+```bash
+docker run -p 8000:8000 garbage_classification
 ```
 
 ### 2. **Running the Application Locally Without Docker (Using Conda)**
