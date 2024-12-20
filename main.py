@@ -143,5 +143,3 @@ elif options == "Metrics & Analysis":
 #https://media.gettyimages.com/id/184941955/it/foto/per-il-riciclaggio-dei-rifiuti-di-cartone-isolato-su-bianco.jpg?s=612x612&w=gi&k=20&c=XmvHJkBKmCRnqv57DnsGyNO6XAUNBHXHm3emKlcDrBo=
 #https://image.made-in-china.com/202f0j00TiJhOcMsySRZ/Wholesale-Rectangular-Metal-Cookie-Tin-Box.webp
 #https://content.oppictures.com/Master_Images/Master_Variants/Variant_1500/187227.JPG
-
-
